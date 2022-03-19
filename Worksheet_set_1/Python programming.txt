@@ -1,0 +1,15 @@
+PYTHON – WORKSHEET 1
+
+A1.    (C) - %
+A2.    (B) – 0
+A3.    (C) - 24 
+A4.    (A)-2
+A5.    (D)-6
+A6.    (C)- The finally block will be executed no matter if the try       block raises an error or not.
+A7.    (A)- It is used to raise an exception.
+A8.    (C)- In defining a generator
+A9.    (A)- _abc
+          (C)- abc2
+A10.  (A)- yield
+          (B)- raise
+
