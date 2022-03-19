@@ -1,0 +1,24 @@
+                                      Machine Learning
+
+
+1.	(A) Least Square Method
+2.	(A) Linear regression is sensitive to outliers
+3.	(B) Negative
+4.	(B) Correlation
+5.	(C) Low Bias and High Variance
+6.	(B) Predictive modelling
+7.	(D) Regularization
+8.	(D) SMOTE
+9.	(C) Sensitivity and Specificity
+10.	(B) False
+11.	(D) Forward Selection
+12.	(A) We don’t have to choose the learning rate.
+(B) It becomes slow when number of features is very large.
+13.	Regularization: regularization describes a technique to prevent overfitting. Complex models are prone to picking up random noise from training data which might obscure the patterns found in the data. Regularization helps reduce the influence of noise on the model’s predictive performance.
+14.	Algorithms: 
+> Ridge Regression
+> LASSO (Least Absolute Shrinkage and Selection Operator) Regression
+> Elastic-Net Regression
+ 
+15.	Error term: An error term represents the margin of error within a statistical model; it refers to the sum of the deviations within the regression line, which provides an explanation for the difference between the theoretical value of the model and the actual observed results. The regression line is used as a point of analysis when attempting to determine the correlation between one independent variable and one dependent variable.
+
