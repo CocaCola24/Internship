@@ -1,0 +1,47 @@
+                                                                              Statistics Worksheet
+
+1. (B) False
+2. (A) Central Limit Theorem
+3. (B) Modeling bounded count data
+4. (D) All of the above
+5. (C) Poisson's
+6. (B) False
+7. (B) Hypothesis
+8. (A) 0
+9. (C) Outliers cannot conform to the regression relationship
+10. Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean. In graph form, normal distribution will appear as a bell curve.
+11. Missing data can be dealt with in a variety of ways. I believe the most common reaction is to ignore it. Choosing to make no decision, on the other hand, indicates that your statistical programme will make the decision for you.
+
+    Your application will remove things in a listwise sequence most of the time. Depending on why and how much data is gone, listwise deletion may or may not be a good idea.
+
+    Another common strategy among those who pay attention is imputation. 
+    Imputation is the process of substituting an estimate for missing values and analysing the entire data set as if the imputed values were the true observed values.
+    The following are some of the most prevalent methods:
+
+    1. Mean imputation: Calculate the mean of the observed values for that variable for all non-missing people.It has the advantage of maintaining the same mean and sample size, but it also has a slew of drawbacks. Almost all of the methods described below are superior to mean imputation.
+    2. Substitution: Assume the value from a new person who was not included in the sample.To put it another way, pick a new subject and employ their worth instead.
+    3. Hot deck imputation: A value picked at random from a sample member who has comparable values on other variables.To put it another way, select all the sample participants who are comparable on other factors, then choose one of their missing variable values at random.
+       One benefit is that you are limited to just feasible values. In other words, if age is only allowed to be between 5 and 10 in your research, you will always obtain a value between 5 and 10.Another factor is the random element, which introduces some variation. For exact standard errors, this is crucial.
+    4. Cold deck imputation: A value picked deliberately from an individual with similar values on other variables.In most aspects, this is comparable to Hot Deck, but without the random variance. As an example, under the same experimental condition and block, you can always select the third individual.
+    5. Regression imputation: The result of regressing the missing variable on other factors to get a predicted value.As a result, instead of utilising the mean, you're relying on the anticipated value, which is influenced by other factors. This keeps the associations between the variables in the imputation model, but not the variability around the anticipated values.
+    6. Stochastic regression imputation: The predicted value of a regression plus a random residual value.This has all of the benefits of regression imputation plus the random component's benefits.The majority of multiple imputation is based on stochastic regression imputation.
+    7. Interpolation and extrapolation: An estimate based on other observations made by the same person. It generally only works with data that is collected over time.Proceed with caution, though. For a variable like height in children–one that cannot be reduced through time–interpolation would make more sense. Extrapolation entails estimating beyond the data's true range, which necessitates making more assumptions than is necessary.
+    8. Single or Multiple Imputation: Single and multiple imputation are the two forms of imputation. When people say imputation, they usually mean single.
+                                      The term "single" refers to the fact that you only use one of the seven methods to estimate the missing number outlined above.
+                                      It's popular since it's simple to understand and generates a sample with the same number of observations as the complete data set.
+                                      When listwise deletion eliminates a considerable amount of the data set, single imputation appears to be a tempting option. It does, however, have certain restrictions.
+                                      Unless the data is Missing Completely at Random, certain imputation processes, such as means, correlations, and regression coefficients, result in skewed parameter estimations. The bias is frequently worse than with listwise deletion, which is most software's default.
+                                      The level of the bias is determined by a number of factors, including the imputation technique, the missing data mechanism, the fraction of missing data, and the information in the data set.
+12. A/B testing, also known as split testing, refers to a randomized experimentation process wherein two or more versions of a variable (web page, page element, etc.) are shown to different segments of website visitors at the same time to determine which version leaves the maximum impact and drive business metrics.
+13. Mean imputation is typically considered terrible practice since it ignores feature correlation. Consider the following scenario: we have a table with age and fitness scores, and an eight-year-old has a missing fitness score. If we average the fitness scores of people between the ages of 15 and 80, the eighty-year-old will appear to have a significantly greater fitness level than he actually does.
+    Second, mean imputation decreases the variance of our data while increasing bias. As a result of the reduced variance, the model is less accurate and the confidence interval is narrower.
+14. Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
+15. Statistics may be divided into two main branches:
+    
+    (1) Descriptive Statistics (2) Inferential Statistics
+
+    (1) Descriptive Statistics: Descriptive statistics deals with the collection of data, its presentation in various forms, such as tables, graphs and diagrams and finding averages and other measures which would describe the data.
+    (2) Inferential Statistics: Inferential statistics deals with techniques used for the analysis of data, making estimates and drawing conclusions from limited information obtained through sampling and testing the reliability of the estimates.
+
+
+
